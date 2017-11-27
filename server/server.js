@@ -30,7 +30,7 @@ http.createServer(function(request,response){
 			response.write('File not found!');
 		}else{
 			var ct = path.extname(file).slice(1);
-    		response.setHeader('Content-Type', contentType[ct]);
+    		//response.setHeader('Content-Type', contentType[ct]);
 			response.write(data);
 		}
 		response.end();

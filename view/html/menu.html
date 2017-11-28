@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default">
+		<div class="container-fluid" >
+			<ul>
+				<li ng-repeat="item in items"></li>
+			</ul>
+		</div>
+</nav>
+<div class="search_bar">
+	<section class="search">
+	  <div class="sub_media">
+	    <form id="search_form" action="/search" method="get" accept-charset="utf-8">
+	      <span tabindex="-1" role="presentation" class="k-widget k-autocomplete k-header k-autocomplete-clearable k-state-default" style=""><input dir="auto" id="search_v4" name="query" type="text" tabindex="2" autocorrect="off" autofill="off" autocomplete="off" spellcheck="false" placeholder="Buscar por um filme, série ou pessoa" value="" data-role="autocomplete" class="k-input" role="textbox" aria-haspopup="true" aria-disabled="false" aria-readonly="false" aria-owns="search_v4_listbox" aria-autocomplete="list" style="width: 100%;"><span unselectable="on" class="k-icon k-clear-value k-i-close k-hidden" title="clear" role="button" tabindex="-1"></span><span class="k-icon k-i-loading" style="display:none"></span></span>
+	      <input type="submit">
+	    </form>
+	  </div>
+	</section>
+</div>
